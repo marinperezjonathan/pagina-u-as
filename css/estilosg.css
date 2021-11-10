@@ -1,0 +1,342 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+header{
+	position: relative;
+	margin: 30px auto;
+	width: 1024px;
+	height: 180px;
+	
+	
+
+}
+#uno{
+	position: absolute;
+	top: 10px;
+	left:0px;
+	width: 200px;
+	height: 100px;
+	
+}
+#ico{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	top: 30px;
+	right: 0px;
+}
+#ico2{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	top: 30px;
+	right:50px;
+}
+#ico3{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	top: 30px;
+	right: 100px;
+}
+#dos{
+	position: absolute;
+	width: 280px;
+	height: 100px;
+	top: 0px;
+	right: 800px;
+
+}
+#tres{
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	top: 100px;
+	right: 670px;
+	text-align: center;
+	font-family:'Zen Antique Soft',cursive;
+	
+}
+#cuatro{
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	top: 100px;
+	right: 550px;
+	text-align: center;
+	font-family:'Zen Antique Soft',cursive;
+	}
+#cinco{
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	top: 100px;
+	right: 428px;
+	text-align: center;
+	font-family:'Zen Antique Soft',cursive;
+}
+#six{
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	top: 100px;
+	right: 300px;
+	font-family:'Zen Antique Soft',cursive;
+}
+#siete{
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	top: 100px;
+	right: 180px;
+	font-family:'Zen Antique Soft',cursive;
+}		
+nav{
+	position: relative;
+	margin: auto;
+	width: 1024px;
+	height: 350px;
+
+		
+}
+.slider{
+	width: 100%;
+	margin:auto;
+}
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-in;
+}
+.slider li{
+	width: 100%;
+	list-style: none;
+}
+.slider img{
+	width: 100%;
+}
+@keyframes cambio{
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+nav img{
+	box-shadow: 7px 13px 37px #000;	
+
+}
+
+#navdos{
+	position: relative;
+	margin: auto;
+	top: 80px;
+	width: 1024px;
+	height:400px;
+	font-family:'Zen Antique Soft',cursive;
+
+}
+
+#doss{
+	position: relative;
+	margin: 20px auto;
+	width: 1000px;
+	height: 180px;
+	top: 160px;
+}
+#doss ul li {
+	float: left;
+	width: 250px;
+	height: 180px;
+	margin: 10px 30px;
+	box-shadow: 7px 13px 37px #000;
+}
+#doss img {
+	border: 3px solid;
+	border-color: black;
+	box-shadow: 7px 13px 37px #000;
+	 
+}
+#tercera{
+	position: relative;
+	margin: 20px auto;
+	width: 1000px;
+	height: 180px;
+	top: 250px;
+
+
+}
+#tercera ul li {
+	float: left;
+	width: 250px;
+	height: 180px;
+	margin: 10px 30px;
+	box-shadow: 7px 13px 37px #000;
+
+
+}
+#tercera img {
+	border: 3px solid;
+	border-color: black;
+	box-shadow: 7px 13px 37px #000;	
+}
+#cuarta{
+	position: relative;
+	margin: 20px auto;
+	width: 1000px;
+	height: 180px;
+	top: 340px;
+}
+#cuarta ul li {
+	float: left;
+	width: 250px;
+	height: 180px;
+	margin: 10px 30px;
+	box-shadow: 7px 13px 37px #000;
+}
+#cuarta img {
+	border: 3px solid;
+	border-color: black;
+	box-shadow: 7px 13px 37px #000;
+}
+#quinta{
+	position: relative;
+	margin: 20px auto;
+	width: 1000px;
+	height: 180px;
+	top: 450px;
+}
+#quinta ul li {
+	float: left;
+	width: 250px;
+	height: 180px;
+	margin: 10px 30px;
+	box-shadow: 7px 13px 37px #000;
+}
+#quinta img {
+	border: 3px solid;
+	border-color: black;
+	box-shadow: 7px 13px 37px #000;
+}
+#sexta{
+	position: relative;
+	margin: 20px auto;
+	width: 1000px;
+	height: 180px;
+	top: 520px;
+}
+#sexta ul li {
+	float: left;
+	width: 250px;
+	height: 180px;
+	margin: 10px 30px;
+	box-shadow: 7px 13px 37px #000;
+}
+#sexta img {
+	border: 3px solid;
+	border-color: black;
+	box-shadow: 7px 13px 37px #000;
+}
+#sectima{
+	position: relative;
+	margin: 20px auto;
+	width: 1000px;
+	height: 180px;
+	top: 600px;
+}
+#sectima ul li {
+	float: left;
+	width: 250px;
+	height: 180px;
+	margin: 10px 30px;
+	box-shadow: 7px 13px 37px #000;
+}
+#sectima img {
+	border: 3px solid;
+	border-color: black;
+	box-shadow: 7px 13px 37px #000;
+}
+#para {
+	position: relative;
+	margin: 20px auto;
+	width: 500px;
+	height: 60px;
+	top: 690px;
+	background-color: #3542;
+	box-shadow: 7px 13px 37px #000;
+
+}
+footer {
+	position: relative;
+	margin: 750px auto;
+	width: 1024px;
+	height: 400px;
+	
+}
+#la{
+	position: absolute;
+	width: 512px;
+	height: 300px;
+	
+}
+#lo{
+	position: absolute;
+	width: 512px;
+	height: 300px;
+	right: 0px;
+	margin: 0px;
+	
+}
+#a{
+  
+	width: 1024px;
+	height: 100px;
+	margin: 310px;
+	position: absolute;
+	right: -310px;
+	top: -10px;
+}
+#aa{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	top: 30px;
+	right: 450px;
+	
+}
+#bb{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	top: 30px;
+	right:500px;
+	
+}
+#cc{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	top: 30px;
+	right: 550px;
+	
+}
